@@ -51,8 +51,6 @@
 
 (defun foo (x) (mapcar #'(lambda (e) e) x))
 
-(foo "foo")
-
 ; 9
 
 (defun draw () (format t "*"))
